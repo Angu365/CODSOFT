@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color:black;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+#hero {
+  text-align: center;
+  background-color:rgb(15, 196, 246);
+  color: white;
+  padding: 60px 20px;
+}
+
+#hero button {
+  padding: 10px 20px;
+  background-color:white;
+  border: none;
+  color:#333;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#products {
+  padding: 40px 20px;
+ 
+   
+}
+#products h3{
+  color: #f9f9f9;
+  font: size 400px;
+  padding-bottom:10px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #f9f9f9;
+}
+
+.product-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+.header a:hover{
+  color:black;
+  background-color: aliceblue;
+}
+.product-card:hover{
+  color: aliceblue;
+  background-color: black;
+}
+#hero button:hover{
+  color:white;
+  background-color: black;
+}
